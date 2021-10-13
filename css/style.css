@@ -13,9 +13,11 @@ text-decoration: none;
 color: rgb(0, 0, 0);
 }
 
+/* Colores de la tabla */
 table{
     border-spacing: 0px;
     border-color: rgb(34, 34, 34);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .dia{
