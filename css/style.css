@@ -3,7 +3,7 @@
     background-color: rgb(217, 255, 187);
     border: black 1px solid;
     float: left;
-    margin-right: 10px;
+    margin-right: 5px;
     padding: 5px 5px;
 }
 
@@ -11,4 +11,40 @@
 
 text-decoration: none;
 color: rgb(0, 0, 0);
+}
+
+table{
+    border-spacing: 0px;
+    border-color: rgb(34, 34, 34);
+}
+
+.dia{
+    background-color: rgb(237, 245, 124);
+}
+
+.hora{ 
+    background-color: rgb(237, 245, 124);
+}
+.serveis{
+    background-color: rgb(146, 255, 95);
+}
+
+.seguretat{
+    background-color: rgb(250, 126, 126);
+}
+
+.sistemes{
+    background-color: rgb(161, 241, 255);
+}
+
+.aplicacions{
+    background-color: rgb(255, 245, 102);
+}
+
+.empresa{
+    background-color: rgb(235, 158, 245);
+}
+
+.pati{
+    background-color: rgb(202, 199, 250);
 }
