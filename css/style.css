@@ -7,11 +7,25 @@
     padding: 5px 5px;
 }
 
+#menu ul li:hover{
+    background-color: rgb(126, 218, 83);
+}
+
 #menu ul li a{
 
 text-decoration: none;
 color: rgb(0, 0, 0);
 }
+*/
+header {
+
+    padding-top: 100px;
+  
+    background: #3d4144 url("../img/bg.png") 0 0 repeat;
+  
+    border-bottom: 5px solid #ddd;
+  
+  }
 
 /* Colores de la tabla */
 table{
