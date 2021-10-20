@@ -1,0 +1,87 @@
+table{
+    border-spacing: 0px;
+    border-color: rgb(34, 34, 34);
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+td{
+    border: 1px solid black;
+    width: 150px;
+    height: 150px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arribadere {
+    border-top: 0;
+    border-right: 0;
+}
+
+.arribaizq{
+    border-top: 0;
+    border-left: 0;
+}
+
+.arriba{
+    border-top: 0;
+}
+
+.abajo{
+    border-bottom: 0;
+}
+
+.dere{
+    border-right: 0;
+}
+
+.izq{
+    border-left: 0;
+}
+
+.abajoizq{
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.abajodere{
+    border-bottom: 0;
+    border-right: 0;
+}
+
+/* Css de el menu de Inicio */
+
+#menu ul li{
+    list-style: none;
+    background-color: rgb(183, 235, 143);
+    border: black 1px solid;
+    margin: auto;
+    padding: 5px 5px;
+    width: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+
+#menu ul li:hover{
+    background-color: rgb(126, 218, 83);
+}
+
+#menu ul li a{
+
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+
+/* --- */
