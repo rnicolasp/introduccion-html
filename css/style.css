@@ -93,13 +93,13 @@ table{
     display:inline;
 }
 
-.menu ul li:hover{
+.menu ul li a:hover{
     background-color: rgb(182, 182, 182);
 }
 
 .menu ul li a{
     text-decoration: none;
-    padding: 20px;
+    padding: 25px;
     color: white;
 }
 
@@ -110,35 +110,31 @@ table{
 
 h1 {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #border-left {
     border-left: 3px solid rgb(182, 182, 182);
-    outline-offset: 15px;
+    padding-left: 5px;
 }
 
 .paragraph {
     margin-top: 25px;
 }
 
-
-
-
-
 .wrapper
 {
-	padding-bottom: 90px;
+	padding-bottom: 10px;
 }
 
 .divider
 {
 	position: relative;
-	margin-top: 90px;
+	margin-top: 30px;
 	height: 1px;
 }
 
-.div-transparent:before
-{
+.div-transparent:before {
 	content: "";
 	position: absolute;
 	top: 0;
