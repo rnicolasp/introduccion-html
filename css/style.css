@@ -81,29 +81,104 @@ table{
     margin-top: 50px;
 }
 
-.menu {
-    background-color: #bdc3c7;
-    padding: 10px;
-    text-align: center;
-    vertical-align: middle;
-}
-
-.menu ul li{
+/* MENU */
+ul{
     list-style: none;
-    display:inline;
 }
 
-.menu ul li:hover{
-    background-color: #ffffff;
-    color: black;
-    cursor: pointer;
-}
-
-.menu ul li {
+a{
     text-decoration: none;
-    padding: 25px;
-    color: white;
 }
+
+header{
+    background-color:var(--main-color);
+    width: 100%;
+}
+
+
+:root{
+    --main-color:#6e8ba3;
+    --hover-color:#dadada;
+    --font-color:#ffffff;
+    --active-color:#ff8d76;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: var(--font-color);
+}
+
+header{
+    background-color:var(--main-color);
+    width: 100%;
+}
+
+nav{
+    width: 75%;
+    margin: 0 auto;
+}
+
+nav ul{
+    display: table;
+    width: 100%;
+}
+
+nav ul li{
+    display: table-cell;
+    width: 25%;
+    height: 30px;
+    background-color:var(--main-color);
+
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    height: 100%;
+}
+
+nav ul li a:hover{
+    background-color: var(--hover-color);
+    color:var(--font-color);
+    height: 100%;
+}
+
+.active{
+    background-color: var(--active-color);
+}
+
+.show{
+    display: block;
+}
+
+@media screen and (max-width: 411px) {
+
+    nav{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #menu-header{
+        display: none;
+    }
+    
+    nav ul li{
+        display: list-item;
+        width: 100%;
+    }
+}
+
+/* MENU FIN */
 
 .fecha {
     font-size: 30px;
